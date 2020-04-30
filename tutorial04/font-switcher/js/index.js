@@ -1,12 +1,11 @@
 const makeBigger = () => {
-   alert('make bigger!');
+   document.querySelector(".content").style.fontSize = '36px';
 };
 
 const makeSmaller = () => {
-   alert('make smaller!');
+   document.querySelector(".content").style.fontSize = '16px';
 };
 
-/*
-document.querySelector(???).onclick = makeBigger;
-document.querySelector(???).onclick = makeSmaller;
-*/
+
+document.querySelector(".a1").onclick = makeBigger;
+document.querySelector(".a2").onclick = makeSmaller;
